@@ -323,6 +323,15 @@ TabMan:CreateButton({
     end
 })
 
+-- ADICIONADO ABAIXO DE LIMPAR MARCADORES
+TabMan:CreateButton({
+    Name = "Limpar Teleportes", 
+    Callback = function()
+        selecionadoParaTP = ""
+        DropdownTP:Refresh({"Nenhum"}, true)
+    end
+})
+
 TabMan:CreateButton({
     Name = "Teleportar para Selecionado", 
     Callback = function()
