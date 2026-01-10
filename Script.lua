@@ -180,7 +180,7 @@ TabTroll:CreateButton({
 })
 
 -- ABA VIGILANTE (NOVA)
-local TabVig = Window:CreateTab("Casais Sus", 10734950037)
+local TabVig = Window:CreateTab("Casais Sus [BETA]", 10734950037)
 TabVig:CreateToggle({
     Name = "Auto-detectar coisas 18+",
     CurrentValue = false,
